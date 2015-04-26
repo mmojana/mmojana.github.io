@@ -1,0 +1,24 @@
+# Site settings
+title: Marco Mojana Github page
+email: m.mojana@gmail.com
+description: Marco Mojana random activities
+baseurl: ""
+url: "http://offbytwo.net" # the base hostname & protocol for your site
+twitter_username: marcomojana
+github_username:  mmojana
+
+timezone: Europe/Zurich
+encoding: utf-8
+safe: true
+
+# Build settings
+markdown: kramdown
+
+defaults: 
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "Marco Mojana"
